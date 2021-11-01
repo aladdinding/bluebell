@@ -20,6 +20,18 @@ func SetupRouter() *gin.Engine {
 	v1.POST("/signup", controller.SignUpHandler)
 	v1.GET("/refresh_token", controller.RefreshTokenHandler)
 
+	v1.Use(controller.JWTAuthMiddleware())
+	{
+		v1.GET("/community", controller.CommunityHandler)
+		v1.GET("/community/:id", controller.CommunityDetailHandler)
+
+		v1.POST("/post", controller.CreatePostHandler)
+		v1.GET("/post/:id", controller.PostDetailHandler)
+		v1.GET("/post", controller.PostListHandler)
+
+		v1.POST("/post2", controller.PostList2Handler)
+	}
+
 	r.NoRoute(func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"msg": "404",

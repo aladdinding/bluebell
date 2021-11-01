@@ -8,3 +8,4 @@
 
 1. *gin.context 的Next和Abort函数具体作用
 2. jwt中的keyfunc作用是什么
+3. c.param 和c.query()有什么区别

@@ -3,3 +3,32 @@
 {"level":"INFO","time":"2021-10-26T11:51:31.576+0800","caller":"logger/logger.go:44","msg":"init logger success"}
 {"level":"INFO","time":"2021-10-26T13:33:55.648+0800","caller":"logger/logger.go:44","msg":"init logger success"}
 {"level":"INFO","time":"2021-10-26T13:38:33.289+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T10:26:50.141+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"ERROR","time":"2021-10-28T10:27:31.243+0800","caller":"controller/user.go:47","msg":"mysql.Login(&u) failed","error":"Error 1054: Unknown column 'user_name' in 'field list'"}
+{"level":"ERROR","time":"2021-10-28T10:28:14.846+0800","caller":"controller/user.go:47","msg":"mysql.Login(&u) failed","error":"Error 1054: Unknown column 'user_name' in 'field list'"}
+{"level":"INFO","time":"2021-10-28T10:30:16.969+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T10:32:02.203+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T10:33:16.750+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T10:38:56.392+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T10:40:07.777+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T11:05:48.018+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T11:12:39.335+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T11:13:46.878+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T11:15:23.634+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"ERROR","time":"2021-10-28T11:38:54.660+0800","caller":"controller/user.go:47","msg":"mysql.Login(&u) failed","error":"Error 1054: Unknown column 'user_name' in 'field list'"}
+{"level":"ERROR","time":"2021-10-28T11:39:04.835+0800","caller":"controller/user.go:47","msg":"mysql.Login(&u) failed","error":"Error 1054: Unknown column 'user_name' in 'field list'"}
+{"level":"ERROR","time":"2021-10-28T11:39:05.874+0800","caller":"controller/user.go:47","msg":"mysql.Login(&u) failed","error":"Error 1054: Unknown column 'user_name' in 'field list'"}
+{"level":"INFO","time":"2021-10-28T11:39:14.779+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"ERROR","time":"2021-10-28T11:39:33.949+0800","caller":"controller/user.go:47","msg":"mysql.Login(&u) failed","error":"Error 1054: Unknown column 'user_name' in 'field list'"}
+{"level":"ERROR","time":"2021-10-28T11:39:40.996+0800","caller":"controller/user.go:47","msg":"mysql.Login(&u) failed","error":"Error 1054: Unknown column 'user_name' in 'field list'"}
+{"level":"INFO","time":"2021-10-28T11:39:57.125+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T11:41:58.692+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T14:33:08.582+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T14:35:20.690+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T14:35:49.572+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T14:36:02.219+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T14:36:14.273+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T14:40:28.709+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2021-10-28T14:58:33.518+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"ERROR","time":"2021-10-28T15:37:57.709+0800","caller":"controller/community.go:29","msg":"mysql.GetCommunityByID() failed","error":"无效的ID"}
+{"level":"ERROR","time":"2021-10-28T15:38:10.155+0800","caller":"controller/community.go:29","msg":"mysql.GetCommunityByID() failed","error":"无效的ID"}

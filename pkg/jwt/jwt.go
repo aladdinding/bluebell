@@ -22,7 +22,7 @@ func keyFunc(_ *jwt.Token) (i interface{}, err error) {
 	return mySecret, nil
 }
 
-const TokenExpireDuration = time.Hour * 24 * 365
+const TokenExpireDuration = time.Hour * 24 * 7
 
 // GenToken 生成access token 和 refresh token
 func GenToken(userID uint64) (aToken, rToken string, err error) {

@@ -17,7 +17,7 @@ func encrpytPassword(data []byte) string {
 }
 
 func Register(user *models.User) (err error) {
-	sqlStr := "select count(user_id) from user where username ?"
+	sqlStr := "select count(user_id) from user where username = ?"
 	var count int64
 	err = db.Get(&count, sqlStr, user.UserName)
 	if err != nil && err != sql.ErrNoRows {
@@ -35,14 +35,14 @@ func Register(user *models.User) (err error) {
 	// 生成加密密码
 	password := encrpytPassword([]byte(user.Password))
 	//把用户插入数据库
-	sqlStr = "insert into user(user_id,user_name,password) valuees (?,?,?)"
+	sqlStr = "insert into user(user_id,username,password) values (?,?,?)"
 	_, err = db.Exec(sqlStr, userID, user.UserName, password)
 	return
 }
 
 func Login(user *models.User) (err error) {
 	originPassword := user.Password
-	sqlStr := "select user_id,user_name,password from user where username=?"
+	sqlStr := "select user_id,username,password from user where username=?"
 	err = db.Get(user, sqlStr, user.UserName)
 	if err != nil && err != sql.ErrNoRows {
 		//查询数据库出错
